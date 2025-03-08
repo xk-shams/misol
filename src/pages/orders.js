@@ -1,4 +1,5 @@
 import Head from "next/head";
+import OrderList from "@/components/pages/orders/OrderList";
 
 export default function Orders() {
   return (
@@ -10,7 +11,7 @@ export default function Orders() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-        <h1>Order</h1>
+        <OrderList />
       </div>
     </>
   );
