@@ -2,7 +2,9 @@ import React from 'react'
 
 function OrderList() {
   return (
-    <div>OrderList</div>
+    <div>
+     <h1>list</h1>
+    </div>
   )
 }
 
